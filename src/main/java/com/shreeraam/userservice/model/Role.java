@@ -1,4 +1,4 @@
-package com.shreeraam.user_service.model;
+package com.shreeraam.userservice.model;
 
 public enum Role {
     ADMIN,

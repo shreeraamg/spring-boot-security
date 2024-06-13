@@ -1,4 +1,4 @@
-package com.shreeraam.user_service;
+package com.shreeraam.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

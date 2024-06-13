@@ -1,4 +1,4 @@
-package com.shreeraam.user_service.model;
+package com.shreeraam.userservice.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
