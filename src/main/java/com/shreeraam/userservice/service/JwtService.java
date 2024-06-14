@@ -29,12 +29,10 @@ public class JwtService {
                 .builder()
                 .subject(user.getId())
                 .issuedAt(new Date(System.currentTimeMillis()))
-                .expiration(new Date(System.currentTimeMillis() + (1000 * 60 * 60 * 24)))
+                .expiration(new Date(System.currentTimeMillis() + (1000 * 60 * 60 * 24 * 14))) // 14 days
                 .claim("payload", payload)
                 .signWith(getSigningKey())
                 .compact();
-
-        extractUserRole(token);
 
         return token;
     }
